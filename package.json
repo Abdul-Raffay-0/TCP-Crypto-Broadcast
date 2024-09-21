@@ -1,0 +1,14 @@
+{
+  "name": "chatapp-portfolio",
+  "version": "1.0.0",
+  "description": "A Secure Chat Application",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "author": "Abdul Raffay",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
