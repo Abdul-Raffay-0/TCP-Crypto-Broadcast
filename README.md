@@ -1,4 +1,4 @@
-Bi-Directional TCP WebSockets Platform imlplemented with a Vector Database
+Bi-Directional TCP WebSockets Platform implemented with a Vector Database
 ======================================
 
 A **bi-directional conversation platform** built in vanilla Node.js and deployed on **AWS**, featuring **end-to-end encryption**, real-time langauge translation for multilingual users, and advanced search capabilities.
