@@ -1,4 +1,4 @@
-Bi-Directional TCP WebSockets Platform
+Bi-Directional TCP WebSockets Platform imlplemented with a Vector Database
 ======================================
 
 A **bi-directional conversation platform** built in vanilla Node.js and deployed on **AWS**, featuring **end-to-end encryption**, real-time langauge translation for multilingual users, and advanced search capabilities.
@@ -32,6 +32,6 @@ Tech Stack
     
 *   **Cloud**: AWS for deployment
     
-*   **Database**: Pinecone (Vector Database) for search indexing, Postgres for storage
+*   **Database**: Pinecone (Vector Database) for search indexing and storage (upto 7 days storage due to cost constraints)
     
 *   **Frontend**: React.js + Tailwind CSS
