@@ -1,14 +1,14 @@
 {
-  "name": "chatapp-portfolio",
+  "name": "vector-dialogue" ,
   "version": "1.0.0",
-  "description": "A Secure Chat Application",
+  "description": "A secure bi-directional chat platform utilizing TCP WebSockets, featuring real-time translation and advanced search with vector databases.",
   "main": "server.js",
-  "scripts": {
-    "start": "nodemon"
-  },
+  "keywords": ["chat", "WebSockets", "translation", "vector database", "secure messaging"],
+  
   "author": "Abdul Raffay",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^3.1.7"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Abdul-Raffay-0/Vector-Dialogue"
   }
 }
