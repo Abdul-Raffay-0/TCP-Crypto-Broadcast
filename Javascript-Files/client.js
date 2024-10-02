@@ -8,9 +8,12 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
-//socket on the client side
+// client creates a socket
+// connect on this server address
+// because this is local host
+//it will use the same address as the server when we check the client address
 
-const client = net.connect({ host: "127.0.0.1", port: 3009 }, async () => {
+const client = net.createConnection({ host: "127.0.0.1", port: 3009 }, async () => {
   console.log("Succesfully Connected to server");
 
   const message = await rl.question("Enter a message : \n");
