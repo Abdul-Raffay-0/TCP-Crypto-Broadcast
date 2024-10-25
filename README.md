@@ -1,37 +1,12 @@
-Bi-Directional TCP WebSockets Platform implemented with a Vector Database
+Bi-Directional TCP Chat Platform
 ======================================
 
-A **bi-directional conversation platform** built in vanilla Node.js and deployed on **AWS**, featuring **end-to-end encryption**, real-time langauge translation for multilingual users, and advanced search capabilities.
+Implements the push architecture to broadcast the message to every online client. 
+Only Authenticated Clients are allowed to send messages on private chat servers
+In public chat mode, the message is sent to every client on the server
+In private chat mode, only the authenticated clients will receive the broadcase. Note : private mode can be one to one messaging as well
 
-Key Features
-------------
 
-*   **Bi-Directional Communication**: Real-time chat using TCP WebSockets for instant messaging. Blazingly fast because of minimal abstractions, No sockets.io. No express.js
-    
-*   **End-to-End Encryption**: Secure conversations ensuring data privacy between participants.
-    
-*   **Translate as You Go**: Powered by **OpenAI's API**, enabling seamless multilingual communication in real-time.
-    
-*   **User Presence**: Similar to WhatsApp, users can see whether others are online or offline.
-    
-*   **Anonymous & Authenticated Chat**:
-    
-    *   **Anonymous Mode**: Chat temporarily without authentication.
-        
-    *   **Authenticated Mode**: Log in via Google accounts, with session-based authentication.
-        
-*   **Advanced Search**: Leveraging **Pinecone (Vector Database)** for enhanced search functionality across conversations.
-    
-*   **Timezone Awareness**: Automatically adjusts timestamps to each user's local timezone.
-    
+As this is a backend focused project, there is a very simple and basic UI implemented
 
-Tech Stack
-----------
-
-*   **Backend**: Node.js (WebSockets, TCP, Encryption, Authentication)
-    
-*   **Cloud**: AWS for deployment
-    
-*   **Database**: Pinecone (Vector Database) for search indexing and storage (upto 7 days storage due to cost constraints)
-    
-*   **Frontend**: React.js + Tailwind CSS
+This Project is basically the implementation and the crux of the nodejs NET module
