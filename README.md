@@ -12,3 +12,5 @@ As this is a backend focused project, there is a very simple and basic UI implem
 This Project is basically the implementation and the crux of the nodejs NET module
 
 All messages are end to end encrypted, so that bad actors cant sniff messages
+
+TODO : filesharing
