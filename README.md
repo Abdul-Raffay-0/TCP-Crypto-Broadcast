@@ -13,4 +13,9 @@ This Project is basically the implementation and the crux of the nodejs NET modu
 
 All messages are end to end encrypted, so that bad actors cant sniff messages
 
-TODO : filesharing
+Add : uses tcp on transport layer to send messages, there is no http in use, and contrary to popular "chat apps" there are no websockets is use. Other options like webhooks and message queues are also not used
+The main purpose of this very very simple app is to showcase the speed that raw tcp offers, even if that means that i have to create my own layer of protocols on top to handle some extra stuff
+
+TODO : Clean up the readme file. State the purpose clearly, Add filesharing capabilities, End to end encryption, Webui, gui, 
+
+This project is not getting the attention it deserves because of its simplicity lol
